@@ -1,0 +1,47 @@
+.show-container{
+    background-image: linear-gradient(to left bottom, #280b9c, #6104a7, #8c00b0, #b400b8, #da08be);
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 1rem;
+    box-shadow: white;
+    gap: 1 rem;
+    transition: all 0.2s;
+    height: min-content;
+    width: 350px;
+
+}
+body{
+    background-color: rgb(94, 94, 252);
+}
+.shows-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.specs{
+    padding: 30px;
+    margin-left: 30px;
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.image{
+    border-radius: 10px;
+    object-fit:contain;
+    height: 200px;
+    width: 300px;
+}
+.show-container:hover{
+    transform: scale(1.1);
+}
+.show-summary{
+    margin-top: 0px;
+  font-family: 'Caveat', cursive;
+  font-size: 18px;
+}
+.show-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
